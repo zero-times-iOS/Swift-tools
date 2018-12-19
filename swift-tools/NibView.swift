@@ -18,6 +18,7 @@ class NibView: UIView {
     }
     */
     @IBOutlet weak var displayTitle: UILabel!
+    @IBOutlet weak var displayButton: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -30,5 +31,6 @@ class NibView: UIView {
                 self.displayTitle.setText("Swift Tools")
             }
         }
+        displayButton.setBackgroundColor(UIColor.random, forState: UIControl.State.normal)
     }
 }

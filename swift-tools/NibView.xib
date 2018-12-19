@@ -17,19 +17,39 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tip-q6-pO8">
-                    <rect key="frame" x="166" y="323" width="42" height="21"/>
+                    <rect key="frame" x="166.5" y="323" width="42" height="21"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Qh-h3-i6z">
+                    <rect key="frame" x="164.5" y="352" width="46" height="30"/>
+                    <state key="normal" title="Button"/>
+                </button>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="s8V-G8-LPi" customClass="HoLimitLengthTextField" customModule="swift_tools" customModuleProvider="target">
+                    <rect key="frame" x="175" y="390" width="25" height="30"/>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="maxLength">
+                            <integer key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </textField>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="s8V-G8-LPi" firstAttribute="top" secondItem="7Qh-h3-i6z" secondAttribute="bottom" constant="8" symbolic="YES" id="FJ1-Fc-aZr"/>
+                <constraint firstItem="7Qh-h3-i6z" firstAttribute="top" secondItem="tip-q6-pO8" secondAttribute="bottom" constant="8" symbolic="YES" id="FU8-qV-H1t"/>
+                <constraint firstItem="7Qh-h3-i6z" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="V5x-jB-3Ul"/>
                 <constraint firstItem="tip-q6-pO8" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="gHm-Z9-5Z2"/>
+                <constraint firstItem="s8V-G8-LPi" firstAttribute="centerX" secondItem="7Qh-h3-i6z" secondAttribute="centerX" id="ghc-t1-4t1"/>
                 <constraint firstItem="tip-q6-pO8" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="tMB-Sp-5Bi"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
+                <outlet property="displayButton" destination="7Qh-h3-i6z" id="ddh-y8-711"/>
                 <outlet property="displayTitle" destination="tip-q6-pO8" id="jhK-ek-XCk"/>
             </connections>
         </view>

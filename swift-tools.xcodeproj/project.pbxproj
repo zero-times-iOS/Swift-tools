@@ -18,6 +18,9 @@
 		0C19FF5621C9D8A100BB6BD7 /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19FF5521C9D8A100BB6BD7 /* NibView.swift */; };
 		0C19FF5821C9DAAD00BB6BD7 /* HoUIColorExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19FF5721C9DAAD00BB6BD7 /* HoUIColorExtensions.swift */; };
 		0C19FF5A21C9E00700BB6BD7 /* HoUILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19FF5921C9E00700BB6BD7 /* HoUILabelExtensions.swift */; };
+		0C19FF5C21C9E40300BB6BD7 /* HoUIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19FF5B21C9E40300BB6BD7 /* HoUIButtonExtensions.swift */; };
+		0C19FF5E21C9E6BC00BB6BD7 /* HoCGRectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19FF5D21C9E6BC00BB6BD7 /* HoCGRectExtensions.swift */; };
+		0C19FF6021C9E94C00BB6BD7 /* HoLimitLengthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19FF5F21C9E94C00BB6BD7 /* HoLimitLengthTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		0C19FF5521C9D8A100BB6BD7 /* NibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
 		0C19FF5721C9DAAD00BB6BD7 /* HoUIColorExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoUIColorExtensions.swift; sourceTree = "<group>"; };
 		0C19FF5921C9E00700BB6BD7 /* HoUILabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoUILabelExtensions.swift; sourceTree = "<group>"; };
+		0C19FF5B21C9E40300BB6BD7 /* HoUIButtonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoUIButtonExtensions.swift; sourceTree = "<group>"; };
+		0C19FF5D21C9E6BC00BB6BD7 /* HoCGRectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoCGRectExtensions.swift; sourceTree = "<group>"; };
+		0C19FF5F21C9E94C00BB6BD7 /* HoLimitLengthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoLimitLengthTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,20 +112,23 @@
 		0C19FF4D21C9C9F600BB6BD7 /* kit */ = {
 			isa = PBXGroup;
 			children = (
-				0C19FF4E21C9CA3E00BB6BD7 /* HoUIKit */,
+				0C19FF4E21C9CA3E00BB6BD7 /* HoKit */,
 			);
 			path = kit;
 			sourceTree = "<group>";
 		};
-		0C19FF4E21C9CA3E00BB6BD7 /* HoUIKit */ = {
+		0C19FF4E21C9CA3E00BB6BD7 /* HoKit */ = {
 			isa = PBXGroup;
 			children = (
 				0C19FF4F21C9CC1A00BB6BD7 /* HoUIStoryboardExtensions.swift */,
 				0C19FF5321C9D84C00BB6BD7 /* HoNib.swift */,
 				0C19FF5721C9DAAD00BB6BD7 /* HoUIColorExtensions.swift */,
 				0C19FF5921C9E00700BB6BD7 /* HoUILabelExtensions.swift */,
+				0C19FF5B21C9E40300BB6BD7 /* HoUIButtonExtensions.swift */,
+				0C19FF5D21C9E6BC00BB6BD7 /* HoCGRectExtensions.swift */,
+				0C19FF5F21C9E94C00BB6BD7 /* HoLimitLengthTextField.swift */,
 			);
-			path = HoUIKit;
+			path = HoKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,11 +204,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C19FF5A21C9E00700BB6BD7 /* HoUILabelExtensions.swift in Sources */,
+				0C19FF5E21C9E6BC00BB6BD7 /* HoCGRectExtensions.swift in Sources */,
 				0C19FF5421C9D84C00BB6BD7 /* HoNib.swift in Sources */,
 				0C19FF5021C9CC1A00BB6BD7 /* HoUIStoryboardExtensions.swift in Sources */,
 				0C19FF5821C9DAAD00BB6BD7 /* HoUIColorExtensions.swift in Sources */,
 				0C19FF3B21C9C99500BB6BD7 /* ViewController.swift in Sources */,
+				0C19FF6021C9E94C00BB6BD7 /* HoLimitLengthTextField.swift in Sources */,
 				0C19FF3921C9C99500BB6BD7 /* AppDelegate.swift in Sources */,
+				0C19FF5C21C9E40300BB6BD7 /* HoUIButtonExtensions.swift in Sources */,
 				0C19FF5621C9D8A100BB6BD7 /* NibView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
