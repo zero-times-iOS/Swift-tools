@@ -1,5 +1,4 @@
 # Swift-tools
 
-* UIKit Extensions
-HoUIKit
+* HoUIKit - UIKit Extensions
 -
