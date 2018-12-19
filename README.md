@@ -27,7 +27,8 @@
 * [SwiftyUserDefaults](https://github.com/radex/SwiftyUserDefaults) - 对NSUserDefaults的封装
 * [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess) - 使用Keychain非常方便
 # 图片缓存
-* [Kingfisher](https://github.com/onevcat/Kingfisher) - 图片缓存
+* [Kingfisher](https://github.com/onevcat/Kingfisher) - 喵神王巍写的一款关于图片下载、缓存的框架，灵感取自于SDWebImage
+* [HanekeSwift](https://github.com/Haneke/HanekeSwift) - 轻量带缓存高性能图片加载组件
 # 加密
 * [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) - 加密相关功能
 # 综合
@@ -63,52 +64,87 @@
 * [ImagePicker](https://github.com/hyperoslo/ImagePicker) - 图片选择器
 * [MaterialKit](https://github.com/nghialv/MaterialKit) - 关于Material design做的一系列UI组件
 * [Material](https://github.com/CosmicMind/Material) - Animation和UI与一身，还有Icon、Color等元素，使用这个库就可以打造一个漂亮的UI界面并具有优雅的动画效果
->>      引导页
+## 引导页
 * [RazzleDazzle](https://github.com/IFTTT/RazzleDazzle) - 集成引导页，具有不错的动画效果
->>      新手教程
+## 新手教程
 * [Instructions](https://github.com/ephread/Instructions) - 应用于操作指南、新手教程
->>      Tab Bar
+## Tab Bar
 * [adaptive-tab-ba](https://github.com/Ramotion/adaptive-tab-bar) - Ramotion出品，提供适合的Tab Bar
 * [animated-tab-ba](https://github.com/Ramotion/animated-tab-bar) - 给tabbar items各单元添加动画效果
->>      TableView
+## TableView
 * [Eureka](https://github.com/xmartlabs/Eureka) - 通过详细的映射，创建动态的table-view forms
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
+* [folding-cell](https://github.com/Ramotion/folding-cell) - 折叠的cell效果，动画很nice
+## Alert、Sheet
+* [SCLAlertView-Swif](https://github.com/vikmeup/SCLAlertView-Swift) - 不错的一款alert view
+* [SweetAlert-iOS](https://github.com/codestergit/SweetAlert-iOS) - alert
+## Button
+* [DOFavoriteButton](https://github.com/okmr-d/DOFavoriteButton) - 有动画效果的button，适用于收藏、喜欢、点赞等
+* [hamburger-button](https://github.com/robb/hamburger-button) - hamburger button，动画过渡不错
+## Switch
+* [paper-switch](https://github.com/Ramotion/paper-switch) - Ramotion出品，turned on覆盖父视图的动画效果
+## Label
+* [LTMorphingLabel](https://github.com/lexrus/LTMorphingLabel) - 拥有很多种特性的label
+* [ActiveLabel.swift](https://github.com/optonaut/ActiveLabel.swift) - 支持label某文本段响应事件,Hashtags、Mentions、Links响应事件处理
+## TextField
+* [TextFieldEffects](https://github.com/raulriera/TextFieldEffects) - 具有非常多、非常nice的输入框视图
+* [PhoneNumberKit](https://github.com/marmelroy/PhoneNumberKit) - 专门针对电话号码格式做的一个输入框，很赞
+* [SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField) - 类似于OC的JVFloatLabeledTextField，编辑就会出现浮动的提示label
+* [FloatLabelFields](https://github.com/FahimF/FloatLabelFields) - 类似于SkyFloatingLabelTextField
+## TextView
+* [NextGrowingTextView](https://github.com/muukii/NextGrowingTextView) - 取自于HPGrowingTextView,文本输入视图，对于消息编辑非常有用
+## CoreText、AttributeText
+* [TextAttributes](https://github.com/delba/TextAttributes) - 封装NSAttributedString的框架，让attributed strings处理更加简单，而且是链式结构，看起来更加直观
+## Image
+* [GPUImage2](https://github.com/BradLarson/GPUImage2) - GPUImage的Swift版，GPU加速image和video的处理
+* [Filterpedia](https://github.com/FlexMonkey/Filterpedia) - 给图片加滤镜效果，有很多种滤镜
+* [Toucan](https://github.com/gavinbunney/Toucan) - 图片处理，支持重设尺寸、裁剪、风格化等
+## Gif
+* [Gifu](https://github.com/kaishin/Gifu) - 加载gif的框架，表现良好
+* [AImage](https://github.com/wangjwchn/AImage) - 加载gif和apng的引擎，低内存和cpu消耗
+## Menu
+* [FlowingMenu](https://github.com/yannickl/FlowingMenu) - 很有意思的一个menu,具有平滑的弹簧效果，且手势拖动动画特别有趣
+* [ENSwiftSideMenu](https://github.com/evnaz/ENSwiftSideMenu) - 手势侧滑menu
+* [circle-menu](https://github.com/Ramotion/circle-menu) - 简单、优雅的一款circle menu,有不错的动画效果
+## Page Menu
+* [PageMenu](https://github.com/PageMenu/PageMenu) - :滑动出现不同分页的一个pagemenu，用于不同状态分页效果上是很好的选择
+* [XLPagerTabStrip](https://github.com/xmartlabs/XLPagerTabStrip) - 功能同上，类似于android的PageTabStri
+# 测试
+* [Quick](https://github.com/Quick/Quick) - 测试框架，支持Swift和OC
+* [Sleipnir](https://github.com/railsware/Sleipnir) - BDD测试框架
+# 日志、Log
+* [XCGLogger](https://github.com/DaveWoodCom/XCGLogger) - 功能完整的日志管理库
+* [Log](https://github.com/delba/Log) - 强有力的日志框架
+# 工具、插件
+* [Carthage](https://github.com/Carthage/Carthage) - 包管理工具，类似于CocoaPod
+* [swift-package-manager](https://github.com/apple/swift-package-manager) - 包管理工具
+* [SwiftLint](https://github.com/realm/SwiftLint) - 一个用于检查 Swift 编程风格和约定的试验性工具
+# 项目
+* [TSWeChat](https://github.com/hilen/TSWeChat) - 仿Wechat
+* [FlappySwift](https://github.com/fullstackio/FlappySwift) - 游戏flappy bird的swift实现
+# OCR
+* [SwiftOCR](https://github.com/garnele007/SwiftOCR) - ocr图像识别库 图像验证码
+# Asynchronous
+* [PromiseKit](https://github.com/mxcl/PromiseKit) - 能提供强大的 iOS 开发异步功能,非常容易使用
+* [Async](https://github.com/duemunk/Async) - 关于GCD异步分发的语法糖
+# KVO
+* [Observable-Swift](https://github.com/slazyk/Observable-Swift) - 用于kvo的库
+# Permission权限
+* [PermissionScope](https://github.com/nickoneill/PermissionScope) - 统一许可管理
+* [Permission](https://github.com/delba/Permission) - 统一管理iOS系统的许可，比如相机、相片、定位等
+# App内购
+* [SwiftyStoreKit](https://github.com/bizz84/SwiftyStoreKit) - 封装的轻量级的APP内购框架
+# Bluetooth蓝牙
+* [BluetoothKit](https://github.com/rhummelmose/BluetoothKit) - 
+# App间跳转、DeepLink
+* [Appz](https://github.com/SwiftKitz/Appz) - 非常方便地实现App间跳转和DeepLink
+# 状态机
+* [SwiftTask](https://github.com/ReactKit/SwiftTask) - 用Swift编写的状态机，综合了 Promise + progress + pause + cancel，使用SwiftState
+# 算法以及数据结构
+* [swift-algorithm-club](https://github.com/raywenderlich/swift-algorithm-club) - swift中的算法以及数据结构，还有解释说明
+# 开源APP
+* [Yep](https://github.com/CatchChat/Yep) - 周凯文团队开源的一个社交APP,对于学习swift开发整个项目非常有价值
+
+
 
 
 
