@@ -24,6 +24,8 @@
 * [ObjectMapper](https://github.com/tristanhimmelman/ObjectMapper) - 把json对象映射为model对象
 # 数据存储
 * [SQLite.swift](https://github.com/stephencelis/SQLite.swift) - sqlite 3操作框架
+* [SwiftyUserDefaults](https://github.com/radex/SwiftyUserDefaults) - 对NSUserDefaults的封装
+* [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess) - 使用Keychain非常方便
 # 图片缓存
 * [Kingfisher](https://github.com/onevcat/Kingfisher) - 图片缓存
 # 加密

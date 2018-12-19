@@ -28,6 +28,7 @@
 		0C19FF7021CA2F5500BB6BD7 /* hoMaster.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C19FF6C21CA2F5400BB6BD7 /* hoMaster.png */; };
 		0C19FF7121CA2F5500BB6BD7 /* hoLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C19FF6D21CA2F5500BB6BD7 /* hoLeft.png */; };
 		0C19FF7221CA2F5500BB6BD7 /* hosplit.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0C19FF6E21CA2F5500BB6BD7 /* hosplit.gif */; };
+		0C19FF7421CA455000BB6BD7 /* HoNotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19FF7321CA455000BB6BD7 /* HoNotificationCenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		0C19FF6C21CA2F5400BB6BD7 /* hoMaster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoMaster.png; sourceTree = "<group>"; };
 		0C19FF6D21CA2F5500BB6BD7 /* hoLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoLeft.png; sourceTree = "<group>"; };
 		0C19FF6E21CA2F5500BB6BD7 /* hosplit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hosplit.gif; sourceTree = "<group>"; };
+		0C19FF7321CA455000BB6BD7 /* HoNotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoNotificationCenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				0C19FF5B21C9E40300BB6BD7 /* HoUIButtonExtensions.swift */,
 				0C19FF5D21C9E6BC00BB6BD7 /* HoCGRectExtensions.swift */,
 				0C19FF5F21C9E94C00BB6BD7 /* HoLimitLengthTextField.swift */,
+				0C19FF7321CA455000BB6BD7 /* HoNotificationCenter.swift */,
 			);
 			path = HoKit;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C19FF7421CA455000BB6BD7 /* HoNotificationCenter.swift in Sources */,
 				0C19FF6521CA100C00BB6BD7 /* HoSplitViewController.swift in Sources */,
 				0C19FF5A21C9E00700BB6BD7 /* HoUILabelExtensions.swift in Sources */,
 				0C19FF5E21C9E6BC00BB6BD7 /* HoCGRectExtensions.swift in Sources */,
