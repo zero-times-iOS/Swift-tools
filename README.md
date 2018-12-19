@@ -40,13 +40,15 @@
 * [MonkeyKing](https://github.com/nixzhu/MonkeyKing) - 社会化分享框架，支持分享text、url、image、audio、file到WeChat、QQ、Alipay、Weibo
 * [OAuthSwift](https://github.com/OAuthSwift/OAuthSwift) - 国外主流网站OAuth授权库
 * [R.swift](https://github.com/mac-cain13/R.swift) - 以一种优雅安全的方式使用资源文件
+* [SwiftGen](https://github.com/SwiftGen/SwiftGen) - 为项目资源自动生成Swift代码的工具，可以保证项目资源的类型安全
 * [Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift) - swift实现的各种设计模式
 * [Whisper](https://github.com/hyperoslo/Whisper) - 使用简单、功能实用的消息及应用通知组件
 * [Surge](https://github.com/mattt/Surge) - mattt写的性能加速框架，为数字信号处理和图像处理提供高性能
 * [EZSwiftExtensions](https://github.com/goktugyil/EZSwiftExtensions) - 包含一组标准类型和类的Swift扩展
+* [SwifterSwift](https://github.com/SwifterSwift/SwifterSwift) - 语法糖，扩展
 * [ReSwift](https://github.com/ReSwift/ReSwift) - 单向数据流处理，灵感来自于redux
 # 动画
-*[lottie-ios](https://github.com/airbnb/lottie-ios) - 动画和动效播放处理框架
+* [lottie-ios](https://github.com/airbnb/lottie-ios) - 动画和动效播放处理框架
 * [Spring](https://github.com/MengTo/Spring) - 动画框架
 * [EasyAnimation](https://github.com/icanzilb/EasyAnimation) - 主要应用于UIView.animateWithDuration(_:, animations:...)
 * [IBAnimatable](https://github.com/IBAnimatable/IBAnimatable) - 主要使用于Interface Builder,不需要一行代码就可打造拥有炫酷动画效果的UI界面
@@ -67,6 +69,10 @@
 * [ImagePicker](https://github.com/hyperoslo/ImagePicker) - 图片选择器
 * [MaterialKit](https://github.com/nghialv/MaterialKit) - 关于Material design做的一系列UI组件
 * [Material](https://github.com/CosmicMind/Material) - Animation和UI与一身，还有Icon、Color等元素，使用这个库就可以打造一个漂亮的UI界面并具有优雅的动画效果
+* [SwiftMessages](https://github.com/SwiftKickMobile/SwiftMessages) - 一个非常灵活的iOS视图和视图控制器表示库
+* [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) - 应用于的iOS和OS开发的框架
+## 日期时间
+* [SwiftDate](https://github.com/malcommac/SwiftDate) - 方便的显示需要的日期时间时区
 ## 引导页
 * [RazzleDazzle](https://github.com/IFTTT/RazzleDazzle) - 集成引导页，具有不错的动画效果
 ## 新手教程
@@ -146,7 +152,10 @@
 * [swift-algorithm-club](https://github.com/raywenderlich/swift-algorithm-club) - swift中的算法以及数据结构，还有解释说明
 # 开源APP
 * [Yep](https://github.com/CatchChat/Yep) - 周凯文团队开源的一个社交APP,对于学习swift开发整个项目非常有价值
-
+* [SwiftLanguageWeather](https://github.com/JakeLin/SwiftLanguageWeather) - 天气app
+# 学习资料
+* [Swift](https://github.com/btrn/Swift) - swift4.2
+* [swift-algorithm-club](https://github.com/raywenderlich/swift-algorithm-club) - 解释算法
 
 
 
