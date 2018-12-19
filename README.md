@@ -40,32 +40,38 @@
 * [Design-Patterns-In-Swift](https://github.com/ochococo/Design-Patterns-In-Swift) - swift实现的各种设计模式
 * [Whisper](https://github.com/hyperoslo/Whisper) - 使用简单、功能实用的消息及应用通知组件
 * [Surge](https://github.com/mattt/Surge) - mattt写的性能加速框架，为数字信号处理和图像处理提供高性能
+* [EZSwiftExtensions](https://github.com/goktugyil/EZSwiftExtensions) - 包含一组标准类型和类的Swift扩展
+* [ReSwift](https://github.com/ReSwift/ReSwift) - 单向数据流处理，灵感来自于redux
 # 动画
+* [Spring](https://github.com/MengTo/Spring) - 动画框架
+* [EasyAnimation](https://github.com/icanzilb/EasyAnimation) - 主要应用于UIView.animateWithDuration(_:, animations:...)
+* [IBAnimatable](https://github.com/IBAnimatable/IBAnimatable) - 主要使用于Interface Builder,不需要一行代码就可打造拥有炫酷动画效果的UI界面
+* [Advance](https://github.com/timdonnelly/Advance) - 可应用于 iOS、 tvOS、 and OS X的动画框架
+* [PeekPop](https://github.com/marmelroy/PeekPop) - 使用3D touch 被引用的两个动画特性peek、pop
+* [StarWars.iOS](https://github.com/Yalantis/StarWars.iOS) - 很炫酷的转场动画效果，视图碎片化掉落
+* [NumberMorphView](https://github.com/me-abhinav/NumberMorphView) - label数字变形过渡动画，用于金额数字变动或者时间上面会非常nice <last commit: 4 Dec 2017>
+# 加载指示、HUD
+* [FillableLoaders](https://github.com/polqf/FillableLoaders) - 自定义的进度加载器，有waves、plain、spike、rounded等效果<last commit date: 201705>
+* [NVActivityIndicatorView](https://github.com/ninjaprox/NVActivityIndicatorView) - 很多漂亮的加载指示器
+# 刷新控件
 * []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
-* []() - 
+# 图表、绘画
+* [Charts](https://github.com/danielgindi/Charts) - 非常好的图表框架，类似于MPAndroidChart
+# UIKit
+* [Chatto](https://github.com/badoo/Chatto) - 轻量级构建聊天应用的框架
+* [Koloda](https://github.com/Yalantis/Koloda) - 卡片视图，而且滑动视图有滑动卡片一样的动画效果
+* [ImagePicker](https://github.com/hyperoslo/ImagePicker) - 图片选择器
+* [MaterialKit](https://github.com/nghialv/MaterialKit) - 关于Material design做的一系列UI组件
+* [Material](https://github.com/CosmicMind/Material) - Animation和UI与一身，还有Icon、Color等元素，使用这个库就可以打造一个漂亮的UI界面并具有优雅的动画效果
+>>      引导页
+* [RazzleDazzle](https://github.com/IFTTT/RazzleDazzle) - 集成引导页，具有不错的动画效果
+>>      新手教程
+* [Instructions](https://github.com/ephread/Instructions) - 应用于操作指南、新手教程
+>>      Tab Bar
+* [adaptive-tab-ba](https://github.com/Ramotion/adaptive-tab-bar) - Ramotion出品，提供适合的Tab Bar
+* [animated-tab-ba](https://github.com/Ramotion/animated-tab-bar) - 给tabbar items各单元添加动画效果
+>>      TableView
+* [Eureka](https://github.com/xmartlabs/Eureka) - 通过详细的映射，创建动态的table-view forms
 * []() - 
 * []() - 
 * []() - 
