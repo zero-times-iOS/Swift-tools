@@ -23,6 +23,7 @@
 * [Argo](https://github.com/thoughtbot/Argo) - 函数式json解析转换库
 * [ObjectMapper](https://github.com/tristanhimmelman/ObjectMapper) - 把json对象映射为model对象
 # 数据存储
+* [realm-cocoa](https://github.com/realm/realm-cocoa) - 跨平台本地数据库处理框架，支持Android、Swift、JS等语言
 * [SQLite.swift](https://github.com/stephencelis/SQLite.swift) - sqlite 3操作框架
 * [SwiftyUserDefaults](https://github.com/radex/SwiftyUserDefaults) - 对NSUserDefaults的封装
 * [KeychainAccess](https://github.com/kishikawakatsumi/KeychainAccess) - 使用Keychain非常方便
@@ -31,6 +32,7 @@
 * [HanekeSwift](https://github.com/Haneke/HanekeSwift) - 轻量带缓存高性能图片加载组件
 # 加密
 * [CryptoSwift](https://github.com/krzyzanowskim/CryptoSwift) - 加密相关功能
+*[SwiftyRSA](https://github.com/TakeScoop/SwiftyRSA) -  RSA加密，公钥、私钥密码加密框架
 # 综合
 * [Perfect](https://github.com/PerfectlySoft/Perfect) - 服务器端开发框架（针对于移动后端开发、网站和web应用程序开发）
 * [RxSwift](https://github.com/ReactiveX/RxSwift) - 函数响应式编程框架，是ReactiveX的swift版本，可以简化异步操作和事件/数据流
@@ -44,6 +46,7 @@
 * [EZSwiftExtensions](https://github.com/goktugyil/EZSwiftExtensions) - 包含一组标准类型和类的Swift扩展
 * [ReSwift](https://github.com/ReSwift/ReSwift) - 单向数据流处理，灵感来自于redux
 # 动画
+*[lottie-ios](https://github.com/airbnb/lottie-ios) - 动画和动效播放处理框架
 * [Spring](https://github.com/MengTo/Spring) - 动画框架
 * [EasyAnimation](https://github.com/icanzilb/EasyAnimation) - 主要应用于UIView.animateWithDuration(_:, animations:...)
 * [IBAnimatable](https://github.com/IBAnimatable/IBAnimatable) - 主要使用于Interface Builder,不需要一行代码就可打造拥有炫酷动画效果的UI界面
