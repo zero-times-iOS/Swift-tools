@@ -106,12 +106,12 @@
 		0C19FF4D21C9C9F600BB6BD7 /* kit */ = {
 			isa = PBXGroup;
 			children = (
-				0C19FF4E21C9CA3E00BB6BD7 /* HOUIKit */,
+				0C19FF4E21C9CA3E00BB6BD7 /* HoUIKit */,
 			);
 			path = kit;
 			sourceTree = "<group>";
 		};
-		0C19FF4E21C9CA3E00BB6BD7 /* HOUIKit */ = {
+		0C19FF4E21C9CA3E00BB6BD7 /* HoUIKit */ = {
 			isa = PBXGroup;
 			children = (
 				0C19FF4F21C9CC1A00BB6BD7 /* HoUIStoryboardExtensions.swift */,
@@ -119,7 +119,7 @@
 				0C19FF5721C9DAAD00BB6BD7 /* HoUIColorExtensions.swift */,
 				0C19FF5921C9E00700BB6BD7 /* HoUILabelExtensions.swift */,
 			);
-			path = HOUIKit;
+			path = HoUIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
