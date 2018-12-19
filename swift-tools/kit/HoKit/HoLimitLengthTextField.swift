@@ -11,16 +11,7 @@ import UIKit
 class HoLimitLengthTextField: UITextField {
     
     /// @IBInspectable 声明：可在关联storyboard or xib中设置值
-    @IBInspectable var maxLength: Int {
-        set {
-            mLength = newValue
-        }
-        get {
-            return mLength
-        }
-    }
-    
-    fileprivate var mLength: Int = 10
+    @IBInspectable var maxLength: Int = 10
     
     init(frame: CGRect, maxLength: Int = 10) {
         super.init(frame: frame)

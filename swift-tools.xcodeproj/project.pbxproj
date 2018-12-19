@@ -21,6 +21,13 @@
 		0C19FF5C21C9E40300BB6BD7 /* HoUIButtonExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19FF5B21C9E40300BB6BD7 /* HoUIButtonExtensions.swift */; };
 		0C19FF5E21C9E6BC00BB6BD7 /* HoCGRectExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19FF5D21C9E6BC00BB6BD7 /* HoCGRectExtensions.swift */; };
 		0C19FF6021C9E94C00BB6BD7 /* HoLimitLengthTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19FF5F21C9E94C00BB6BD7 /* HoLimitLengthTextField.swift */; };
+		0C19FF6521CA100C00BB6BD7 /* HoSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19FF6421CA100C00BB6BD7 /* HoSplitViewController.swift */; };
+		0C19FF6721CA1DF700BB6BD7 /* HoMasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19FF6621CA1DF700BB6BD7 /* HoMasterViewController.swift */; };
+		0C19FF6921CA1E0400BB6BD7 /* HoLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19FF6821CA1E0400BB6BD7 /* HoLeftViewController.swift */; };
+		0C19FF6F21CA2F5500BB6BD7 /* hoRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C19FF6B21CA2F5400BB6BD7 /* hoRight.png */; };
+		0C19FF7021CA2F5500BB6BD7 /* hoMaster.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C19FF6C21CA2F5400BB6BD7 /* hoMaster.png */; };
+		0C19FF7121CA2F5500BB6BD7 /* hoLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C19FF6D21CA2F5500BB6BD7 /* hoLeft.png */; };
+		0C19FF7221CA2F5500BB6BD7 /* hosplit.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0C19FF6E21CA2F5500BB6BD7 /* hosplit.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +47,13 @@
 		0C19FF5B21C9E40300BB6BD7 /* HoUIButtonExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoUIButtonExtensions.swift; sourceTree = "<group>"; };
 		0C19FF5D21C9E6BC00BB6BD7 /* HoCGRectExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoCGRectExtensions.swift; sourceTree = "<group>"; };
 		0C19FF5F21C9E94C00BB6BD7 /* HoLimitLengthTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoLimitLengthTextField.swift; sourceTree = "<group>"; };
+		0C19FF6421CA100C00BB6BD7 /* HoSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoSplitViewController.swift; sourceTree = "<group>"; };
+		0C19FF6621CA1DF700BB6BD7 /* HoMasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoMasterViewController.swift; sourceTree = "<group>"; };
+		0C19FF6821CA1E0400BB6BD7 /* HoLeftViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoLeftViewController.swift; sourceTree = "<group>"; };
+		0C19FF6B21CA2F5400BB6BD7 /* hoRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoRight.png; sourceTree = "<group>"; };
+		0C19FF6C21CA2F5400BB6BD7 /* hoMaster.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoMaster.png; sourceTree = "<group>"; };
+		0C19FF6D21CA2F5500BB6BD7 /* hoLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hoLeft.png; sourceTree = "<group>"; };
+		0C19FF6E21CA2F5500BB6BD7 /* hosplit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = hosplit.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +91,8 @@
 				0C19FF4B21C9C9AD00BB6BD7 /* start */,
 				0C19FF4A21C9C9A300BB6BD7 /* common */,
 				0C19FF3A21C9C99500BB6BD7 /* ViewController.swift */,
+				0C19FF6621CA1DF700BB6BD7 /* HoMasterViewController.swift */,
+				0C19FF6821CA1E0400BB6BD7 /* HoLeftViewController.swift */,
 				0C19FF5521C9D8A100BB6BD7 /* NibView.swift */,
 				0C19FF5121C9D83700BB6BD7 /* NibView.xib */,
 			);
@@ -104,6 +120,7 @@
 		0C19FF4C21C9C9BE00BB6BD7 /* resources */ = {
 			isa = PBXGroup;
 			children = (
+				0C19FF6A21CA2E8000BB6BD7 /* HoSplit */,
 				0C19FF3F21C9C99600BB6BD7 /* Assets.xcassets */,
 			);
 			path = resources;
@@ -112,6 +129,7 @@
 		0C19FF4D21C9C9F600BB6BD7 /* kit */ = {
 			isa = PBXGroup;
 			children = (
+				0C19FF6121CA0F6100BB6BD7 /* HoSplitViewController */,
 				0C19FF4E21C9CA3E00BB6BD7 /* HoKit */,
 			);
 			path = kit;
@@ -129,6 +147,25 @@
 				0C19FF5F21C9E94C00BB6BD7 /* HoLimitLengthTextField.swift */,
 			);
 			path = HoKit;
+			sourceTree = "<group>";
+		};
+		0C19FF6121CA0F6100BB6BD7 /* HoSplitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0C19FF6421CA100C00BB6BD7 /* HoSplitViewController.swift */,
+			);
+			path = HoSplitViewController;
+			sourceTree = "<group>";
+		};
+		0C19FF6A21CA2E8000BB6BD7 /* HoSplit */ = {
+			isa = PBXGroup;
+			children = (
+				0C19FF6D21CA2F5500BB6BD7 /* hoLeft.png */,
+				0C19FF6C21CA2F5400BB6BD7 /* hoMaster.png */,
+				0C19FF6B21CA2F5400BB6BD7 /* hoRight.png */,
+				0C19FF6E21CA2F5500BB6BD7 /* hosplit.gif */,
+			);
+			path = HoSplit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,6 +228,10 @@
 			files = (
 				0C19FF5221C9D83800BB6BD7 /* NibView.xib in Resources */,
 				0C19FF4321C9C99600BB6BD7 /* LaunchScreen.storyboard in Resources */,
+				0C19FF7221CA2F5500BB6BD7 /* hosplit.gif in Resources */,
+				0C19FF7121CA2F5500BB6BD7 /* hoLeft.png in Resources */,
+				0C19FF7021CA2F5500BB6BD7 /* hoMaster.png in Resources */,
+				0C19FF6F21CA2F5500BB6BD7 /* hoRight.png in Resources */,
 				0C19FF4021C9C99600BB6BD7 /* Assets.xcassets in Resources */,
 				0C19FF3E21C9C99500BB6BD7 /* Main.storyboard in Resources */,
 			);
@@ -203,13 +244,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C19FF6521CA100C00BB6BD7 /* HoSplitViewController.swift in Sources */,
 				0C19FF5A21C9E00700BB6BD7 /* HoUILabelExtensions.swift in Sources */,
 				0C19FF5E21C9E6BC00BB6BD7 /* HoCGRectExtensions.swift in Sources */,
 				0C19FF5421C9D84C00BB6BD7 /* HoNib.swift in Sources */,
 				0C19FF5021C9CC1A00BB6BD7 /* HoUIStoryboardExtensions.swift in Sources */,
+				0C19FF6721CA1DF700BB6BD7 /* HoMasterViewController.swift in Sources */,
 				0C19FF5821C9DAAD00BB6BD7 /* HoUIColorExtensions.swift in Sources */,
 				0C19FF3B21C9C99500BB6BD7 /* ViewController.swift in Sources */,
 				0C19FF6021C9E94C00BB6BD7 /* HoLimitLengthTextField.swift in Sources */,
+				0C19FF6921CA1E0400BB6BD7 /* HoLeftViewController.swift in Sources */,
 				0C19FF3921C9C99500BB6BD7 /* AppDelegate.swift in Sources */,
 				0C19FF5C21C9E40300BB6BD7 /* HoUIButtonExtensions.swift in Sources */,
 				0C19FF5621C9D8A100BB6BD7 /* NibView.swift in Sources */,
