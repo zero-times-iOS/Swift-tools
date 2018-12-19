@@ -6,5 +6,6 @@
 >>>       Step 2: 设置segue identifier 
 >>> ![HoSplit](https://github.com/zero-times-iOS/Swift-tools/blob/master/swift-tools/resources/HoSplit/hosplit.gif "效果图")  
 >>> [Segue设置图](https://github.com/zero-times-iOS/Swift-tools/blob/master/swift-tools/resources/HoSplit "设置详细步骤")  
+* [SnapKit](https://github.com/SnapKit/SnapKit) - SnapKit is a DSL to make Auto Layout easy on both iOS and OS X.
 
 
