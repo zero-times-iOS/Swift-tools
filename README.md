@@ -93,9 +93,9 @@
 * [ReactiveCocoa](https://github.com/ReactiveCocoa/ReactiveCocoa) - 应用于的iOS和OS开发的框架
 * [panelkit](https://github.com/louisdh/panelkit) - 视图浮于窗口嵌入，类似windows窗口托运分屏显示
 ## 日期时间
-* [SwiftDate](https://github.com/malcommac/SwiftDate) - 方便的显示需要的日期时间时区
+>* [SwiftDate](https://github.com/malcommac/SwiftDate) - 方便的显示需要的日期时间时区
 ## 引导页、轮播图
-* [RazzleDazzle](https://github.com/IFTTT/RazzleDazzle) - 集成引导页，具有不错的动画效果
+>* [RazzleDazzle](https://github.com/IFTTT/RazzleDazzle) - 集成引导页，具有不错的动画效果
 * [FSPagerView](https://github.com/WenchaoD/FSPagerView) - UICollectionView实现的轮播图
 ## 新手教程
 * [Instructions](https://github.com/ephread/Instructions) - 应用于操作指南、新手教程
