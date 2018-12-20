@@ -96,56 +96,56 @@
 >* [SwiftDate](https://github.com/malcommac/SwiftDate) - 方便的显示需要的日期时间时区
 ## 引导页、轮播图
 >* [RazzleDazzle](https://github.com/IFTTT/RazzleDazzle) - 集成引导页，具有不错的动画效果
-* [FSPagerView](https://github.com/WenchaoD/FSPagerView) - UICollectionView实现的轮播图
+>* [FSPagerView](https://github.com/WenchaoD/FSPagerView) - UICollectionView实现的轮播图
 ## 新手教程
-* [Instructions](https://github.com/ephread/Instructions) - 应用于操作指南、新手教程
+>* [Instructions](https://github.com/ephread/Instructions) - 应用于操作指南、新手教程
 ## Tab Bar
-* [adaptive-tab-ba](https://github.com/Ramotion/adaptive-tab-bar) - Ramotion出品，提供适合的Tab Bar
-* [animated-tab-ba](https://github.com/Ramotion/animated-tab-bar) - 给tabbar items各单元添加动画效果
+>* [adaptive-tab-ba](https://github.com/Ramotion/adaptive-tab-bar) - Ramotion出品，提供适合的Tab Bar
+>* [animated-tab-ba](https://github.com/Ramotion/animated-tab-bar) - 给tabbar items各单元添加动画效果
 ## TableView
-* [Eureka](https://github.com/xmartlabs/Eureka) - 通过详细的映射，创建动态的table-view forms
-* [folding-cell](https://github.com/Ramotion/folding-cell) - 折叠的cell效果，动画很nice
-* [SwipeCellKit](https://github.com/SwipeCellKit/SwipeCellKit) - cell滑动处理
-* [SkeletonView](https://github.com/Juanpe/SkeletonView) - 空白加载视图(请求数据过渡用)
+>* [Eureka](https://github.com/xmartlabs/Eureka) - 通过详细的映射，创建动态的table-view forms
+>* [folding-cell](https://github.com/Ramotion/folding-cell) - 折叠的cell效果，动画很nice
+>* [SwipeCellKit](https://github.com/SwipeCellKit/SwipeCellKit) - cell滑动处理
+>* [SkeletonView](https://github.com/Juanpe/SkeletonView) - 空白加载视图(请求数据过渡用)
 ## Alert、Sheet
-* [SCLAlertView-Swif](https://github.com/vikmeup/SCLAlertView-Swift) - 不错的一款alert view
-* [SweetAlert-iOS](https://github.com/codestergit/SweetAlert-iOS) - alert
-* [alerts-and-pickers](https://github.com/dillidon/alerts-and-pickers) - Alerts & Pickers
+>* [SCLAlertView-Swif](https://github.com/vikmeup/SCLAlertView-Swift) - 不错的一款alert view
+>* [SweetAlert-iOS](https://github.com/codestergit/SweetAlert-iOS) - alert
+>* [alerts-and-pickers](https://github.com/dillidon/alerts-and-pickers) - Alerts & Pickers
 ## Button
-* [DOFavoriteButton](https://github.com/okmr-d/DOFavoriteButton) - 有动画效果的button，适用于收藏、喜欢、点赞等
-* [hamburger-button](https://github.com/robb/hamburger-button) - hamburger button，动画过渡不错
+>* [DOFavoriteButton](https://github.com/okmr-d/DOFavoriteButton) - 有动画效果的button，适用于收藏、喜欢、点赞等
+>* [hamburger-button](https://github.com/robb/hamburger-button) - hamburger button，动画过渡不错
 ## Switch
-* [paper-switch](https://github.com/Ramotion/paper-switch) - Ramotion出品，turned on覆盖父视图的动画效果
+>* [paper-switch](https://github.com/Ramotion/paper-switch) - Ramotion出品，turned on覆盖父视图的动画效果
 ## Label
-* [LTMorphingLabel](https://github.com/lexrus/LTMorphingLabel) - 拥有很多种特性的label
-* [ActiveLabel.swift](https://github.com/optonaut/ActiveLabel.swift) - 支持label某文本段响应事件,Hashtags、Mentions、Links响应事件处理
+>* [LTMorphingLabel](https://github.com/lexrus/LTMorphingLabel) - 拥有很多种特性的label
+>* [ActiveLabel.swift](https://github.com/optonaut/ActiveLabel.swift) - 支持label某文本段响应事件,Hashtags、Mentions、Links响应事件处理
 ## TextField
-* [TextFieldEffects](https://github.com/raulriera/TextFieldEffects) - 具有非常多、非常nice的输入框视图
-* [PhoneNumberKit](https://github.com/marmelroy/PhoneNumberKit) - 专门针对电话号码格式做的一个输入框，很赞
-* [SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField) - 类似于OC的JVFloatLabeledTextField，编辑就会出现浮动的提示label
-* [FloatLabelFields](https://github.com/FahimF/FloatLabelFields) - 类似于SkyFloatingLabelTextField
-* [LoginCritter](https://github.com/cgoldsby/LoginCritter) - 与textfield交互的动画
+>* [TextFieldEffects](https://github.com/raulriera/TextFieldEffects) - 具有非常多、非常nice的输入框视图
+>* [PhoneNumberKit](https://github.com/marmelroy/PhoneNumberKit) - 专门针对电话号码格式做的一个输入框，很赞
+>* [SkyFloatingLabelTextField](https://github.com/Skyscanner/SkyFloatingLabelTextField) - 类似于OC的JVFloatLabeledTextField，编辑就会出现浮动的提示label
+>* [FloatLabelFields](https://github.com/FahimF/FloatLabelFields) - 类似于SkyFloatingLabelTextField
+>* [LoginCritter](https://github.com/cgoldsby/LoginCritter) - 与textfield交互的动画
 ## TextView
-* [NextGrowingTextView](https://github.com/muukii/NextGrowingTextView) - 取自于HPGrowingTextView,文本输入视图，对于消息编辑非常有用
+>* [NextGrowingTextView](https://github.com/muukii/NextGrowingTextView) - 取自于HPGrowingTextView,文本输入视图，对于消息编辑非常有用
 ## CoreText、AttributeText
-* [TextAttributes](https://github.com/delba/TextAttributes) - 封装NSAttributedString的框架，让attributed strings处理更加简单，而且是链式结构，看起来更加直观
+>* [TextAttributes](https://github.com/delba/TextAttributes) - 封装NSAttributedString的框架，让attributed strings处理更加简单，而且是链式结构，看起来更加直观
 ## Image
-* [GPUImage2](https://github.com/BradLarson/GPUImage2) - GPUImage的Swift版，GPU加速image和video的处理
-* [Filterpedia](https://github.com/FlexMonkey/Filterpedia) - 给图片加滤镜效果，有很多种滤镜
-* [Toucan](https://github.com/gavinbunney/Toucan) - 图片处理，支持重设尺寸、裁剪、风格化等
+>* [GPUImage2](https://github.com/BradLarson/GPUImage2) - GPUImage的Swift版，GPU加速image和video的处理
+>* [Filterpedia](https://github.com/FlexMonkey/Filterpedia) - 给图片加滤镜效果，有很多种滤镜
+>* [Toucan](https://github.com/gavinbunney/Toucan) - 图片处理，支持重设尺寸、裁剪、风格化等
 ## Gif
-* [Gifu](https://github.com/kaishin/Gifu) - 加载gif的框架，表现良好
-* [AImage](https://github.com/wangjwchn/AImage) - 加载gif和apng的引擎，低内存和cpu消耗
+>* [Gifu](https://github.com/kaishin/Gifu) - 加载gif的框架，表现良好
+>* [AImage](https://github.com/wangjwchn/AImage) - 加载gif和apng的引擎，低内存和cpu消耗
 ## Menu
-* [FlowingMenu](https://github.com/yannickl/FlowingMenu) - 很有意思的一个menu,具有平滑的弹簧效果，且手势拖动动画特别有趣
-* [ENSwiftSideMenu](https://github.com/evnaz/ENSwiftSideMenu) - 手势侧滑menu
-* [circle-menu](https://github.com/Ramotion/circle-menu) - 简单、优雅的一款circle menu,有不错的动画效果
-* [SideMenu](https://github.com/jonkykong/SideMenu) - 提供slide in out in + out 等多种滑出动画的框架
-* [SlideMenuControllerSwift](https://github.com/dekatotoro/SlideMenuControllerSwift) - 左滑右滑，主视图向后拉伸动画
+>* [FlowingMenu](https://github.com/yannickl/FlowingMenu) - 很有意思的一个menu,具有平滑的弹簧效果，且手势拖动动画特别有趣
+>* [ENSwiftSideMenu](https://github.com/evnaz/ENSwiftSideMenu) - 手势侧滑menu
+>* [circle-menu](https://github.com/Ramotion/circle-menu) - 简单、优雅的一款circle menu,有不错的动画效果
+>* [SideMenu](https://github.com/jonkykong/SideMenu) - 提供slide in out in + out 等多种滑出动画的框架
+>* [SlideMenuControllerSwift](https://github.com/dekatotoro/SlideMenuControllerSwift) - 左滑右滑，主视图向后拉伸动画
 ## Page Menu
-* [PageMenu](https://github.com/PageMenu/PageMenu) - :滑动出现不同分页的一个pagemenu，用于不同状态分页效果上是很好的选择
-* [XLPagerTabStrip](https://github.com/xmartlabs/XLPagerTabStrip) - 功能同上，类似于android的PageTabStri
-* [Persei](https://github.com/Yalantis/Persei) - 3d下拉菜单选择
+>* [PageMenu](https://github.com/PageMenu/PageMenu) - :滑动出现不同分页的一个pagemenu，用于不同状态分页效果上是很好的选择
+>* [XLPagerTabStrip](https://github.com/xmartlabs/XLPagerTabStrip) - 功能同上，类似于android的PageTabStri
+>* [Persei](https://github.com/Yalantis/Persei) - 3d下拉菜单选择
 ## 日历
 * [JTAppleCalendar](https://github.com/patchthecode/JTAppleCalendar) - 日历
 * [CVCalendar](https://github.com/CVCalendar/CVCalendar) - 流畅的日历组件
