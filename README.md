@@ -147,8 +147,8 @@
 >* [XLPagerTabStrip](https://github.com/xmartlabs/XLPagerTabStrip) - 功能同上，类似于android的PageTabStri
 >* [Persei](https://github.com/Yalantis/Persei) - 3d下拉菜单选择
 ## 日历
-* [JTAppleCalendar](https://github.com/patchthecode/JTAppleCalendar) - 日历
-* [CVCalendar](https://github.com/CVCalendar/CVCalendar) - 流畅的日历组件
+>* [JTAppleCalendar](https://github.com/patchthecode/JTAppleCalendar) - 日历
+>* [CVCalendar](https://github.com/CVCalendar/CVCalendar) - 流畅的日历组件
 # 测试
 * [Quick](https://github.com/Quick/Quick) - 测试框架，支持Swift和OC
 * [Sleipnir](https://github.com/railsware/Sleipnir) - BDD测试框架
