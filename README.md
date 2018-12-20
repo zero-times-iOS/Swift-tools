@@ -35,6 +35,8 @@
 *[SwiftyRSA](https://github.com/TakeScoop/SwiftyRSA) -  RSA加密，公钥、私钥密码加密框架
 # 综合
 * [Perfect](https://github.com/PerfectlySoft/Perfect) - 服务器端开发框架（针对于移动后端开发、网站和web应用程序开发）
+* [vapor](https://github.com/vapor/vapor) - 服务器端开发框架
+* [Kitura](https://github.com/IBM-Swift/Kitura) - Web服务器
 * [RxSwift](https://github.com/ReactiveX/RxSwift) - 函数响应式编程框架，是ReactiveX的swift版本，可以简化异步操作和事件/数据流
 * [Dollar](https://github.com/ankurp/Dollar) - 无需扩展任何内置对象就为Swift语言提供有效的函数式编程辅助方法,类似于Lo-Dash或JavaScript中的Underscore
 * [MonkeyKing](https://github.com/nixzhu/MonkeyKing) - 社会化分享框架，支持分享text、url、image、audio、file到WeChat、QQ、Alipay、Weibo
@@ -56,6 +58,7 @@
 * [PeekPop](https://github.com/marmelroy/PeekPop) - 使用3D touch 被引用的两个动画特性peek、pop
 * [StarWars.iOS](https://github.com/Yalantis/StarWars.iOS) - 很炫酷的转场动画效果，视图碎片化掉落
 * [NumberMorphView](https://github.com/me-abhinav/NumberMorphView) - label数字变形过渡动画，用于金额数字变动或者时间上面会非常nice <last commit: 4 Dec 2017>
+* [Hero](https://github.com/HeroTransitions/Hero) - ViewController 跳转动画
 # 加载指示、HUD
 * [FillableLoaders](https://github.com/polqf/FillableLoaders) - 自定义的进度加载器，有waves、plain、spike、rounded等效果<last commit date: 201705>
 * [NVActivityIndicatorView](https://github.com/ninjaprox/NVActivityIndicatorView) - 很多漂亮的加载指示器
@@ -83,6 +86,7 @@
 ## TableView
 * [Eureka](https://github.com/xmartlabs/Eureka) - 通过详细的映射，创建动态的table-view forms
 * [folding-cell](https://github.com/Ramotion/folding-cell) - 折叠的cell效果，动画很nice
+* [SkeletonView](https://github.com/Juanpe/SkeletonView) - 空白加载视图(请求数据过渡用)
 ## Alert、Sheet
 * [SCLAlertView-Swif](https://github.com/vikmeup/SCLAlertView-Swift) - 不错的一款alert view
 * [SweetAlert-iOS](https://github.com/codestergit/SweetAlert-iOS) - alert
@@ -153,10 +157,12 @@
 # 开源APP
 * [Yep](https://github.com/CatchChat/Yep) - 周凯文团队开源的一个社交APP,对于学习swift开发整个项目非常有价值
 * [SwiftLanguageWeather](https://github.com/JakeLin/SwiftLanguageWeather) - 天气app
+* [firefox-ios](https://github.com/mozilla-mobile/firefox-ios) - 火狐浏览器
+* [ios-oss](https://github.com/kickstarter/ios-oss) - ios-oss
 # 学习资料
 * [Swift](https://github.com/btrn/Swift) - swift4.2
 * [swift-algorithm-club](https://github.com/raywenderlich/swift-algorithm-club) - 解释算法
-
+* [awesome-swift](https://github.com/matteocrippa/awesome-swift) - swift教程
 
 
 
