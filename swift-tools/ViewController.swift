@@ -13,11 +13,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let nibView = HoNib.instantiateView(NibView.self)
+        let nibView = NibView.nibView
         nibView.frame = self.view.frame
         self.view.addSubview(nibView)
     
-    
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 

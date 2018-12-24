@@ -17,6 +17,11 @@ class HoLeftViewController: UIViewController {
     }
     
 
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        HoRouter.push(ViewController.self)
+    }
+    
     /*
     // MARK: - Navigation
 

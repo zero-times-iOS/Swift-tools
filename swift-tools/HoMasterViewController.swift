@@ -7,12 +7,21 @@
 //
 
 import UIKit
+import StarWars
 
 class HoMasterViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    
+    fileprivate var datas: [(String,UIViewController.Type)] {
+        return [("NumberMorphView",NumberMorphViewController.self),
+                ("StarWars",UIViewController.self),
+                ("Macaw",MacawViewController.self)]
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setupUI()
         // Do any additional setup after loading the view.
     }
     
@@ -24,14 +33,65 @@ class HoMasterViewController: UIViewController {
     @IBAction func right(_ sender: Any) {
         splitVC()?.openRightMenu()
     }
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    
+    fileprivate func setupUI() {
+        
+        tableView.rowHeight = tableView.estimatedRowHeight
+        tableView.rowHeight = UITableView.automaticDimension
     }
-    */
+    
+    fileprivate struct Identifier {
+        static let starWarsSegue = "StarWars"
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == Identifier.starWarsSegue {
+            let destination = segue.destination
+            destination.transitioningDelegate = self
+        }
+    }
 
+}
+extension HoMasterViewController: UITableViewDelegate, UITableViewDataSource {
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return datas.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        if let cell = cell as? HoTableViewCell {
+            cell.displayTitle.text = datas[indexPath.row].0
+        }
+        return cell
+    }
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+
+        if indexPath.row == 1 {
+            self.performSegue(withIdentifier: Identifier.starWarsSegue, sender: nil)
+            return
+        }
+        
+        let vc = UIStoryboard.main!.instantiateVC(datas[indexPath.row].1)
+        vc.title = datas[indexPath.row].0
+        
+        self.navigationController?.pushViewController(vc, animated: true)
+        
+    }
+}
+extension HoMasterViewController: UIViewControllerTransitioningDelegate {
+    func animationController(forDismissed dismissed: UIViewController) -> UIViewControllerAnimatedTransitioning? {
+        
+        let animator = StarWarsGLAnimator()
+        animator.duration = 1.5
+        animator.spriteWidth = 20
+        return animator
+    }
 }

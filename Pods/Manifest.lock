@@ -1,0 +1,28 @@
+PODS:
+  - Macaw (0.9.3):
+    - SWXMLHash
+  - NumberMorphView (0.2.0)
+  - StarWars (2.0)
+  - SWXMLHash (4.7.4)
+
+DEPENDENCIES:
+  - Macaw
+  - NumberMorphView
+  - StarWars
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Macaw
+    - NumberMorphView
+    - StarWars
+    - SWXMLHash
+
+SPEC CHECKSUMS:
+  Macaw: e370d81f465ea1daa8a72d2afa218000bcd24f0a
+  NumberMorphView: d364796d0c0bd343505b94350b5f4ba8e67de37c
+  StarWars: 3c68dc5e9f1b6ca6d407b1d4218fd8a65c2eacfa
+  SWXMLHash: b35739a5cfd915c3b482977aa720d6708e260a90
+
+PODFILE CHECKSUM: dec2d5cf6ec4b82fa9746a621585612d0dc2c2c5
+
+COCOAPODS: 1.6.0.beta.2
