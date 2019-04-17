@@ -17,16 +17,25 @@ extension UIColor {
     /// - parameter alpha: 透明度 0.0 - 1.0
     /// - returns: UIColor?
     public convenience init?(_ hexString: String, alpha: CGFloat = 1.0) {
-        var formatted = hexString.replacingOccurrences(of: "0x", with: "")
-        formatted = formatted.replacingOccurrences(of: "#", with: "")
-        if let hex = Int(formatted, radix: 16) {
-            let red: CGFloat   = CGFloat((hex & 0xFF0000) >> 16) / 255.0
-            let green: CGFloat = CGFloat((hex & 0x00FF00) >> 16) / 255.0
-            let blue: CGFloat  = CGFloat((hex & 0x0000FF) >> 16) / 255.0
-            self.init(red: red, green: green, blue: blue, alpha: alpha)
-        } else {
-            return nil
+        let hexString = hexString.trimmingCharacters(in: .whitespacesAndNewlines)
+        let scanner = Scanner(string: hexString)
+        
+        if hexString.hasPrefix("#") {
+            scanner.scanLocation = 1
         }
+        
+        var color: UInt32 = 0
+        scanner.scanHexInt32(&color)
+        
+        let mask = 0x000000FF
+        let r = Int(color >> 16) & mask
+        let g = Int(color >> 8) & mask
+        let b = Int(color) & mask
+        
+        let red   = CGFloat(r) / 255.0
+        let green = CGFloat(g) / 255.0
+        let blue  = CGFloat(b) / 255.0
+        self.init(red: red, green: green, blue: blue, alpha: alpha)
     }
 
     /// 获取随机色

@@ -1,28 +1,67 @@
 PODS:
+  - Differentiator (3.1.0)
+  - EasyAnimation (2.2.1)
+  - expanding-collection (3.0.0)
+  - IBAnimatable (5.2.1)
   - Macaw (0.9.3):
     - SWXMLHash
   - NumberMorphView (0.2.0)
+  - RxAtomic (4.4.0)
+  - RxCocoa (4.4.0):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.1.0):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.4.0):
+    - RxAtomic (~> 4.4)
   - StarWars (2.0)
   - SWXMLHash (4.7.4)
+  - ViewAnimator (2.2.0)
 
 DEPENDENCIES:
+  - EasyAnimation
+  - expanding-collection
+  - IBAnimatable
   - Macaw
   - NumberMorphView
+  - RxCocoa
+  - RxDataSources
+  - RxSwift
   - StarWars
+  - ViewAnimator
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
+    - Differentiator
+    - EasyAnimation
+    - expanding-collection
+    - IBAnimatable
     - Macaw
     - NumberMorphView
+    - RxAtomic
+    - RxCocoa
+    - RxDataSources
+    - RxSwift
     - StarWars
     - SWXMLHash
+    - ViewAnimator
 
 SPEC CHECKSUMS:
+  Differentiator: be49ca3408f0ecfc761e4c7763d20c62be01b9ad
+  EasyAnimation: 226d133d23ef0ef99ddfb8928ff2a9a4a77d1cfd
+  expanding-collection: 008241debdc263d25e230d6a0824a558a8f2755c
+  IBAnimatable: a46b835ec6875178516cf7e014a40194d6bfa3fc
   Macaw: e370d81f465ea1daa8a72d2afa218000bcd24f0a
   NumberMorphView: d364796d0c0bd343505b94350b5f4ba8e67de37c
+  RxAtomic: eacf60db868c96bfd63320e28619fe29c179656f
+  RxCocoa: df63ebf7b9a70d6b4eeea407ed5dd4efc8979749
+  RxDataSources: a843bad90c29817f5923ec8163f4af2de084ceb3
+  RxSwift: 5976ecd04fc2fefd648827c23de5e11157faa973
   StarWars: 3c68dc5e9f1b6ca6d407b1d4218fd8a65c2eacfa
   SWXMLHash: b35739a5cfd915c3b482977aa720d6708e260a90
+  ViewAnimator: a849844cc3698620e1a562b510ed0c28aeafcdc5
 
-PODFILE CHECKSUM: dec2d5cf6ec4b82fa9746a621585612d0dc2c2c5
+PODFILE CHECKSUM: d763dcf94ac4aa4e6037dd2e86b44fd94e069fb7
 
 COCOAPODS: 1.6.0.beta.2

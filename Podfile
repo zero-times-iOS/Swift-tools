@@ -13,7 +13,22 @@ target 'swift-tools' do
   # VC动画跳转
   pod 'StarWars'
   
-  #
+  # 画图框架
   pod 'Macaw'
   
+  # UIView.ani..动画框架
+  pod 'EasyAnimation'
+
+  # TableViewCell CollectionViewCell 动画加载
+  pod 'ViewAnimator'
+
+  # segue跳转动画
+  pod 'IBAnimatable'
+
+  # 响应式
+  pod 'RxSwift'
+  pod 'RxCocoa'  
+  pod 'RxDataSources'
+
+  pod 'expanding-collection'
 end
