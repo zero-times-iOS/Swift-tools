@@ -58,6 +58,9 @@
 		0C84B0DA226709F700200A1A /* HoHtmlHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C84B0D9226709F700200A1A /* HoHtmlHelper.swift */; };
 		0C84B0DC22670CD700200A1A /* HoWebTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C84B0DB22670CD700200A1A /* HoWebTableViewController.swift */; };
 		0C84B0DE22670FFB00200A1A /* WebTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C84B0DD22670FFB00200A1A /* WebTableViewController.swift */; };
+		0CC5C8C72268269B00B5FC5B /* HoBaiduIdentificationFlower.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC5C8C62268269B00B5FC5B /* HoBaiduIdentificationFlower.m */; };
+		0CC5C8CA22684D8D00B5FC5B /* HoAliFlowerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC5C8C922684D8D00B5FC5B /* HoAliFlowerHelper.m */; };
+		0CC5C8CC22684F7500B5FC5B /* HoFlowerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC5C8CB22684F7500B5FC5B /* HoFlowerHelper.swift */; };
 		D478161065301C6AD71ECC40 /* Pods_swift_tools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27BFB4A9D590FAAB234BEFC /* Pods_swift_tools.framework */; };
 /* End PBXBuildFile section */
 
@@ -115,6 +118,12 @@
 		0C84B0D9226709F700200A1A /* HoHtmlHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoHtmlHelper.swift; sourceTree = "<group>"; };
 		0C84B0DB22670CD700200A1A /* HoWebTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoWebTableViewController.swift; sourceTree = "<group>"; };
 		0C84B0DD22670FFB00200A1A /* WebTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebTableViewController.swift; sourceTree = "<group>"; };
+		0CC5C8C42268269B00B5FC5B /* swift-tools-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-tools-Bridging-Header.h"; sourceTree = "<group>"; };
+		0CC5C8C52268269B00B5FC5B /* HoBaiduIdentificationFlower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoBaiduIdentificationFlower.h; sourceTree = "<group>"; };
+		0CC5C8C62268269B00B5FC5B /* HoBaiduIdentificationFlower.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoBaiduIdentificationFlower.m; sourceTree = "<group>"; };
+		0CC5C8C822684D8D00B5FC5B /* HoAliFlowerHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HoAliFlowerHelper.h; sourceTree = "<group>"; };
+		0CC5C8C922684D8D00B5FC5B /* HoAliFlowerHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoAliFlowerHelper.m; sourceTree = "<group>"; };
+		0CC5C8CB22684F7500B5FC5B /* HoFlowerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoFlowerHelper.swift; sourceTree = "<group>"; };
 		132543C435001F81A5B135E6 /* Pods-swift-tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-tools.debug.xcconfig"; path = "Target Support Files/Pods-swift-tools/Pods-swift-tools.debug.xcconfig"; sourceTree = "<group>"; };
 		6D36DC25C5062731E566AF7F /* Pods-swift-tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-tools.release.xcconfig"; path = "Target Support Files/Pods-swift-tools/Pods-swift-tools.release.xcconfig"; sourceTree = "<group>"; };
 		F27BFB4A9D590FAAB234BEFC /* Pods_swift_tools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_tools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -220,6 +229,8 @@
 		0C19FF4D21C9C9F600BB6BD7 /* kit */ = {
 			isa = PBXGroup;
 			children = (
+				0CC5C8C1226817B900B5FC5B /* HoBaiduIdentificationFlower */,
+				0CC5C8C02268179700B5FC5B /* HoWebTableViewController */,
 				0C19FFBB21D0AA0A00BB6BD7 /* HoRouter */,
 				0C19FF6121CA0F6100BB6BD7 /* HoSplitViewController */,
 				0C19FF4E21C9CA3E00BB6BD7 /* HoKit */,
@@ -239,7 +250,6 @@
 				0C19FF7321CA455000BB6BD7 /* HoNotificationCenter.swift */,
 				0C19FFC021D0BBC600BB6BD7 /* HoUIViewExtensions.swift */,
 				0C84B0D9226709F700200A1A /* HoHtmlHelper.swift */,
-				0C84B0DB22670CD700200A1A /* HoWebTableViewController.swift */,
 			);
 			path = HoKit;
 			sourceTree = "<group>";
@@ -287,6 +297,27 @@
 				0C19FFF421D21B8A00BB6BD7 /* MusicViewController.swift */,
 			);
 			path = RxSwift;
+			sourceTree = "<group>";
+		};
+		0CC5C8C02268179700B5FC5B /* HoWebTableViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0C84B0DB22670CD700200A1A /* HoWebTableViewController.swift */,
+			);
+			path = HoWebTableViewController;
+			sourceTree = "<group>";
+		};
+		0CC5C8C1226817B900B5FC5B /* HoBaiduIdentificationFlower */ = {
+			isa = PBXGroup;
+			children = (
+				0CC5C8C52268269B00B5FC5B /* HoBaiduIdentificationFlower.h */,
+				0CC5C8C62268269B00B5FC5B /* HoBaiduIdentificationFlower.m */,
+				0CC5C8C42268269B00B5FC5B /* swift-tools-Bridging-Header.h */,
+				0CC5C8C822684D8D00B5FC5B /* HoAliFlowerHelper.h */,
+				0CC5C8C922684D8D00B5FC5B /* HoAliFlowerHelper.m */,
+				0CC5C8CB22684F7500B5FC5B /* HoFlowerHelper.swift */,
+			);
+			path = HoBaiduIdentificationFlower;
 			sourceTree = "<group>";
 		};
 		9026828E93D0D7005606F062 /* Pods */ = {
@@ -353,6 +384,7 @@
 				TargetAttributes = {
 					0C19FF3421C9C99500BB6BD7 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -469,6 +501,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C19FFE321D1CFC300BB6BD7 /* IBAnimatableViewController.swift in Sources */,
+				0CC5C8C72268269B00B5FC5B /* HoBaiduIdentificationFlower.m in Sources */,
 				0C19FF7421CA455000BB6BD7 /* HoNotificationCenter.swift in Sources */,
 				0C19FFDD21D1C69700BB6BD7 /* ViewAnimatorTableViewController.swift in Sources */,
 				0C19FF6521CA100C00BB6BD7 /* HoSplitViewController.swift in Sources */,
@@ -477,6 +510,7 @@
 				0C19FFF521D21B8A00BB6BD7 /* MusicViewController.swift in Sources */,
 				0C19FF5A21C9E00700BB6BD7 /* HoUILabelExtensions.swift in Sources */,
 				0C19FF5E21C9E6BC00BB6BD7 /* HoCGRectExtensions.swift in Sources */,
+				0CC5C8CA22684D8D00B5FC5B /* HoAliFlowerHelper.m in Sources */,
 				0C84B0DA226709F700200A1A /* HoHtmlHelper.swift in Sources */,
 				0C19FF5021C9CC1A00BB6BD7 /* HoUIStoryboardExtensions.swift in Sources */,
 				0C19FF6721CA1DF700BB6BD7 /* HoMasterViewController.swift in Sources */,
@@ -489,6 +523,7 @@
 				0C19FFCF21D0CEE900BB6BD7 /* MacawViewController.swift in Sources */,
 				0C19FFD921D1B30200BB6BD7 /* EasyAnimationViewController.swift in Sources */,
 				0C19FFC321D0BDAD00BB6BD7 /* HoTableViewCell.swift in Sources */,
+				0CC5C8CC22684F7500B5FC5B /* HoFlowerHelper.swift in Sources */,
 				0C19FFEB21D21A4900BB6BD7 /* Music.swift in Sources */,
 				0C19FF6021C9E94C00BB6BD7 /* HoLimitLengthTextField.swift in Sources */,
 				0C19FF6921CA1E0400BB6BD7 /* HoLeftViewController.swift in Sources */,
@@ -644,6 +679,7 @@
 			baseConfigurationReference = 132543C435001F81A5B135E6 /* Pods-swift-tools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FVSJ7Y58GD;
 				INFOPLIST_FILE = "$(SRCROOT)/swift-tools/common/SwiftToolsInfo.plist";
@@ -654,6 +690,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hoa.swift-tools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift-tools/kit/HoBaiduIdentificationFlower/swift-tools-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -664,6 +702,7 @@
 			baseConfigurationReference = 6D36DC25C5062731E566AF7F /* Pods-swift-tools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FVSJ7Y58GD;
 				INFOPLIST_FILE = "$(SRCROOT)/swift-tools/common/SwiftToolsInfo.plist";
@@ -674,6 +713,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hoa.swift-tools";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift-tools/kit/HoBaiduIdentificationFlower/swift-tools-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

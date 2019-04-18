@@ -18,6 +18,14 @@ class WebTableViewController: HoWebTableViewController {
         
         tableView.delegate = self
         tableView.dataSource = self
+        
+        if let img = UIImage(named: "1") {
+            HoFlowerHelper.commit(img: img) { (data, error) in
+                if let data = data {
+                    print(data)
+                }
+            }
+        }
     }
 }
 extension WebTableViewController: UITableViewDelegate, UITableViewDataSource {
