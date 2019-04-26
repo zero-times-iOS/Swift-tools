@@ -9,7 +9,7 @@
 #import "HoBaiduIdentificationFlower.h"
 
 static NSString * hostUrl = @"https://aip.baidubce.com/rest/2.0/image-classify/v1/plant?access_token=";
-static NSString * accessToken = @"24.96b408f7844702d9054a87c1f0bdce6b.2592000.1558144637.282335-16047848";
+static NSString * accessToken = @"124.96b408f7844702d9054a87c1f0bdce6b.2592000.1558144637.282335-16047848";
 @implementation HoBaiduIdentificationFlower
 
 + (void)commitImage:(UIImage *)image accessToken: (NSString * _Nullable)accessT response:(void (^)(NSDictionary * _Nullable, NSError * _Nullable))completionHandlerresponse {

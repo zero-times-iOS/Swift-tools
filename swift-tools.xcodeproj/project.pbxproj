@@ -55,6 +55,8 @@
 		0C19FFF521D21B8A00BB6BD7 /* MusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C19FFF421D21B8A00BB6BD7 /* MusicViewController.swift */; };
 		0C19FFF721D372AF00BB6BD7 /* Differentiator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C19FFF621D372AF00BB6BD7 /* Differentiator.framework */; };
 		0C19FFF921D372AF00BB6BD7 /* RxDataSources.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C19FFF821D372AF00BB6BD7 /* RxDataSources.framework */; };
+		0C2B66B92272D5C3006FDF11 /* HoDeviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2B66B72272D5C2006FDF11 /* HoDeviceModel.swift */; };
+		0C2B66BA2272D5C3006FDF11 /* HoValidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2B66B82272D5C3006FDF11 /* HoValidate.swift */; };
 		0C84B0DA226709F700200A1A /* HoHtmlHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C84B0D9226709F700200A1A /* HoHtmlHelper.swift */; };
 		0C84B0DC22670CD700200A1A /* HoWebTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C84B0DB22670CD700200A1A /* HoWebTableViewController.swift */; };
 		0C84B0DE22670FFB00200A1A /* WebTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C84B0DD22670FFB00200A1A /* WebTableViewController.swift */; };
@@ -115,6 +117,8 @@
 		0C19FFF421D21B8A00BB6BD7 /* MusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicViewController.swift; sourceTree = "<group>"; };
 		0C19FFF621D372AF00BB6BD7 /* Differentiator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Differentiator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C19FFF821D372AF00BB6BD7 /* RxDataSources.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = RxDataSources.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2B66B72272D5C2006FDF11 /* HoDeviceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoDeviceModel.swift; sourceTree = "<group>"; };
+		0C2B66B82272D5C3006FDF11 /* HoValidate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoValidate.swift; sourceTree = "<group>"; };
 		0C84B0D9226709F700200A1A /* HoHtmlHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoHtmlHelper.swift; sourceTree = "<group>"; };
 		0C84B0DB22670CD700200A1A /* HoWebTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoWebTableViewController.swift; sourceTree = "<group>"; };
 		0C84B0DD22670FFB00200A1A /* WebTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebTableViewController.swift; sourceTree = "<group>"; };
@@ -248,6 +252,8 @@
 				0C19FF5D21C9E6BC00BB6BD7 /* HoCGRectExtensions.swift */,
 				0C19FF5F21C9E94C00BB6BD7 /* HoLimitLengthTextField.swift */,
 				0C19FF7321CA455000BB6BD7 /* HoNotificationCenter.swift */,
+				0C2B66B72272D5C2006FDF11 /* HoDeviceModel.swift */,
+				0C2B66B82272D5C3006FDF11 /* HoValidate.swift */,
 				0C19FFC021D0BBC600BB6BD7 /* HoUIViewExtensions.swift */,
 				0C84B0D9226709F700200A1A /* HoHtmlHelper.swift */,
 			);
@@ -520,11 +526,13 @@
 				0C19FF5821C9DAAD00BB6BD7 /* HoUIColorExtensions.swift in Sources */,
 				0C19FFCD21D0CC4600BB6BD7 /* StarWarsViewController.swift in Sources */,
 				0C19FF3B21C9C99500BB6BD7 /* ViewController.swift in Sources */,
+				0C2B66B92272D5C3006FDF11 /* HoDeviceModel.swift in Sources */,
 				0C19FFCF21D0CEE900BB6BD7 /* MacawViewController.swift in Sources */,
 				0C19FFD921D1B30200BB6BD7 /* EasyAnimationViewController.swift in Sources */,
 				0C19FFC321D0BDAD00BB6BD7 /* HoTableViewCell.swift in Sources */,
 				0CC5C8CC22684F7500B5FC5B /* HoFlowerHelper.swift in Sources */,
 				0C19FFEB21D21A4900BB6BD7 /* Music.swift in Sources */,
+				0C2B66BA2272D5C3006FDF11 /* HoValidate.swift in Sources */,
 				0C19FF6021C9E94C00BB6BD7 /* HoLimitLengthTextField.swift in Sources */,
 				0C19FF6921CA1E0400BB6BD7 /* HoLeftViewController.swift in Sources */,
 				0C19FF3921C9C99500BB6BD7 /* AppDelegate.swift in Sources */,

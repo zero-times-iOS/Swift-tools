@@ -12,7 +12,7 @@ static NSString * host = @"https://zhiwu.market.alicloudapi.com";
 @implementation HoAliFlowerHelper
 
 + (void)commit {
-    NSString *appcode = @"c723df6664d7417d99c13acb3a535b47";
+    NSString *appcode = @"c723df6664d7417d99c13acb3a535b417";
     NSString *path = @"/do";
     NSString *method = @"POST";
     NSString *querys = @"";

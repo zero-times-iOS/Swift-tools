@@ -12,7 +12,7 @@ struct HoFlowerHelper {
     
     fileprivate struct Contant {
         static let host = "https://zhiwu.market.alicloudapi.com"
-        static let appcode = "c723df6664d7417d99c13acb3a535b47"
+        static let appcode = "c723df6664d7417d99c13acb3a535b417"
     }
     
     static func commit(img: UIImage,_ maxCount: Int = 5,_ completionHandler: @escaping (_ result: [String: Any]?, _ error: Error? ) -> Void) {
