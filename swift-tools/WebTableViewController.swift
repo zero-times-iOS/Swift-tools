@@ -14,18 +14,10 @@ class WebTableViewController: HoWebTableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        webView.load(URLRequest.init(url: URL.init(string: "https://zero-times.github.io")!))
+        webView.load(URLRequest.init(url: URL.init(string: "https://aiwanwang.cn")!))
         
         tableView.delegate = self
         tableView.dataSource = self
-        
-        if let img = UIImage(named: "1") {
-            HoFlowerHelper.commit(img: img) { (data, error) in
-                if let data = data {
-                    print(data)
-                }
-            }
-        }
     }
 }
 extension WebTableViewController: UITableViewDelegate, UITableViewDataSource {

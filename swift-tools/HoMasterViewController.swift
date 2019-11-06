@@ -22,7 +22,8 @@ class HoMasterViewController: UIViewController {
 //                ("Expanding_collection", Expanding_collectionViewController.self),
                 ("RxSwift", MusicViewController.self),
                 ("ViewController", ViewController.self),
-                ("WebTableViewController", WebTableViewController.self)]
+                ("WebTableViewController", WebTableViewController.self),
+                ("TopWebViewController", TopWebViewController.self)]
     }
 
     override func viewDidLoad() {

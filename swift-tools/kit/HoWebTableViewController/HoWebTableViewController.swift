@@ -17,6 +17,7 @@ class HoWebTableViewController: UIViewController {
     var webView: WKWebView!
     var tableView: UITableView!
     var contentView: UIView!
+    var topView: UIView!
     
     fileprivate var lastWebViewContentHeight: CGFloat = 0
     fileprivate var lastTableViewContentHeight: CGFloat = 0
@@ -51,11 +52,11 @@ class HoWebTableViewController: UIViewController {
         tableView.contentInset = UIEdgeInsets.init(top: 0, left: 0, bottom: 0, right: 0)
         tableView.tableFooterView = UIView()
         tableView.isScrollEnabled = false
-        
+      
         contentView = UIView()
         contentView.addSubview(webView)
         contentView.addSubview(tableView)
-        
+
         containerView?.addSubview(contentView)
         containerScrollView?.addSubview(contentView)
         
@@ -64,7 +65,7 @@ class HoWebTableViewController: UIViewController {
         webView.frame.size.height = view.frame.size.height
         tableView.frame.origin.y = webView.frame.maxY
     }
-
+    
     fileprivate func addObservers() {
         
         webView.addObserver(self, forKeyPath: "scrollView.contentSize", options: NSKeyValueObservingOptions.new, context: nil)
@@ -129,16 +130,16 @@ extension HoWebTableViewController: UIScrollViewDelegate {
         }
         if containerView != scrollView { return }
         
-        
-        let offsetY = scrollView.contentOffset.y
-        
         let webViewHeight = webView.frame.h
         let tableViewHeight = tableView.frame.h
-        
+        let webViewTop = self.webView.frame.origin.y;
+
         let webViewContentHeight = webView.scrollView.contentSize.height
         let tableViewContentHeight = tableView.contentSize.height
         
-        if offsetY < 0 {
+        let offsetY = scrollView.contentOffset.y - webViewTop
+
+        if offsetY <= 0 {
             contentView.frame.origin.y = 0
             webView.scrollView.contentOffset = CGPoint.zero
             tableView.contentOffset = CGPoint.zero
@@ -147,12 +148,14 @@ extension HoWebTableViewController: UIScrollViewDelegate {
             self.webView.scrollView.contentOffset = CGPoint(x: 0, y: offsetY);
             self.tableView.contentOffset = CGPoint.zero;
         }else if(offsetY < webViewContentHeight){
-            self.contentView.frame.origin.y = webViewContentHeight - webViewHeight;
-            self.webView.scrollView.contentOffset = CGPoint(x: 0, y: webViewContentHeight - webViewHeight);
+            let subOffetY = webViewContentHeight - webViewHeight
+            self.contentView.frame.origin.y = subOffetY
+            self.webView.scrollView.contentOffset = CGPoint(x: 0, y: subOffetY);
             self.tableView.contentOffset = CGPoint.zero;
         }else if(offsetY < webViewContentHeight + tableViewContentHeight - tableViewHeight){
-            self.contentView.frame.origin.y = offsetY - webViewHeight;
-            self.tableView.contentOffset = CGPoint(x: 0, y: offsetY - webViewContentHeight);
+            let subOffetY = offsetY - webViewHeight - webViewTop
+            self.contentView.frame.origin.y = subOffetY
+            self.tableView.contentOffset = CGPoint(x: 0, y: subOffetY);
             self.webView.scrollView.contentOffset = CGPoint(x: 0, y: webViewContentHeight - webViewHeight);
         }else if(offsetY <= webViewContentHeight + tableViewContentHeight ){
             self.contentView.frame.origin.y = self.containerView.contentSize.height - self.contentView.frame.height;

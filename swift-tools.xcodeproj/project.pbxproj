@@ -63,6 +63,8 @@
 		0CC5C8C72268269B00B5FC5B /* HoBaiduIdentificationFlower.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC5C8C62268269B00B5FC5B /* HoBaiduIdentificationFlower.m */; };
 		0CC5C8CA22684D8D00B5FC5B /* HoAliFlowerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC5C8C922684D8D00B5FC5B /* HoAliFlowerHelper.m */; };
 		0CC5C8CC22684F7500B5FC5B /* HoFlowerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC5C8CB22684F7500B5FC5B /* HoFlowerHelper.swift */; };
+		C6E8EBDF237255730049A18D /* HoScrollWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8EBDE237255720049A18D /* HoScrollWebViewController.swift */; };
+		C6E8EBE1237255DA0049A18D /* TopWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8EBE0237255DA0049A18D /* TopWebViewController.swift */; };
 		D478161065301C6AD71ECC40 /* Pods_swift_tools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27BFB4A9D590FAAB234BEFC /* Pods_swift_tools.framework */; };
 /* End PBXBuildFile section */
 
@@ -130,6 +132,8 @@
 		0CC5C8CB22684F7500B5FC5B /* HoFlowerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoFlowerHelper.swift; sourceTree = "<group>"; };
 		132543C435001F81A5B135E6 /* Pods-swift-tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-tools.debug.xcconfig"; path = "Target Support Files/Pods-swift-tools/Pods-swift-tools.debug.xcconfig"; sourceTree = "<group>"; };
 		6D36DC25C5062731E566AF7F /* Pods-swift-tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-tools.release.xcconfig"; path = "Target Support Files/Pods-swift-tools/Pods-swift-tools.release.xcconfig"; sourceTree = "<group>"; };
+		C6E8EBDE237255720049A18D /* HoScrollWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoScrollWebViewController.swift; sourceTree = "<group>"; };
+		C6E8EBE0237255DA0049A18D /* TopWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopWebViewController.swift; sourceTree = "<group>"; };
 		F27BFB4A9D590FAAB234BEFC /* Pods_swift_tools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_tools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -194,6 +198,7 @@
 				0C19FFD421D0D09500BB6BD7 /* MView.swift */,
 				0C19FF6621CA1DF700BB6BD7 /* HoMasterViewController.swift */,
 				0C84B0DD22670FFB00200A1A /* WebTableViewController.swift */,
+				C6E8EBE0237255DA0049A18D /* TopWebViewController.swift */,
 				0C19FFC221D0BDAD00BB6BD7 /* HoTableViewCell.swift */,
 				0C19FFE621D1DBE300BB6BD7 /* Expanding-collectionViewController.swift */,
 				0C19FF6821CA1E0400BB6BD7 /* HoLeftViewController.swift */,
@@ -308,6 +313,7 @@
 		0CC5C8C02268179700B5FC5B /* HoWebTableViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C6E8EBDE237255720049A18D /* HoScrollWebViewController.swift */,
 				0C84B0DB22670CD700200A1A /* HoWebTableViewController.swift */,
 			);
 			path = HoWebTableViewController;
@@ -511,6 +517,7 @@
 				0C19FF7421CA455000BB6BD7 /* HoNotificationCenter.swift in Sources */,
 				0C19FFDD21D1C69700BB6BD7 /* ViewAnimatorTableViewController.swift in Sources */,
 				0C19FF6521CA100C00BB6BD7 /* HoSplitViewController.swift in Sources */,
+				C6E8EBDF237255730049A18D /* HoScrollWebViewController.swift in Sources */,
 				0C19FFED21D21ACE00BB6BD7 /* MusicListViewModel.swift in Sources */,
 				0C19FFC121D0BBC600BB6BD7 /* HoUIViewExtensions.swift in Sources */,
 				0C19FFF521D21B8A00BB6BD7 /* MusicViewController.swift in Sources */,
@@ -523,6 +530,7 @@
 				0C84B0DE22670FFB00200A1A /* WebTableViewController.swift in Sources */,
 				0C19FFE721D1DBE400BB6BD7 /* Expanding-collectionViewController.swift in Sources */,
 				0C19FFBD21D0AA1D00BB6BD7 /* HoRouter.swift in Sources */,
+				C6E8EBE1237255DA0049A18D /* TopWebViewController.swift in Sources */,
 				0C19FF5821C9DAAD00BB6BD7 /* HoUIColorExtensions.swift in Sources */,
 				0C19FFCD21D0CC4600BB6BD7 /* StarWarsViewController.swift in Sources */,
 				0C19FF3B21C9C99500BB6BD7 /* ViewController.swift in Sources */,
