@@ -63,8 +63,8 @@
 		0CC5C8C72268269B00B5FC5B /* HoBaiduIdentificationFlower.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC5C8C62268269B00B5FC5B /* HoBaiduIdentificationFlower.m */; };
 		0CC5C8CA22684D8D00B5FC5B /* HoAliFlowerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC5C8C922684D8D00B5FC5B /* HoAliFlowerHelper.m */; };
 		0CC5C8CC22684F7500B5FC5B /* HoFlowerHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CC5C8CB22684F7500B5FC5B /* HoFlowerHelper.swift */; };
-		C6E8EBDF237255730049A18D /* HoScrollWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8EBDE237255720049A18D /* HoScrollWebViewController.swift */; };
 		C6E8EBE1237255DA0049A18D /* TopWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8EBE0237255DA0049A18D /* TopWebViewController.swift */; };
+		C6E8EC0E237274170049A18D /* HoHeaderWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E8EC0D237274170049A18D /* HoHeaderWebViewController.swift */; };
 		D478161065301C6AD71ECC40 /* Pods_swift_tools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27BFB4A9D590FAAB234BEFC /* Pods_swift_tools.framework */; };
 /* End PBXBuildFile section */
 
@@ -132,8 +132,8 @@
 		0CC5C8CB22684F7500B5FC5B /* HoFlowerHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoFlowerHelper.swift; sourceTree = "<group>"; };
 		132543C435001F81A5B135E6 /* Pods-swift-tools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-tools.debug.xcconfig"; path = "Target Support Files/Pods-swift-tools/Pods-swift-tools.debug.xcconfig"; sourceTree = "<group>"; };
 		6D36DC25C5062731E566AF7F /* Pods-swift-tools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-tools.release.xcconfig"; path = "Target Support Files/Pods-swift-tools/Pods-swift-tools.release.xcconfig"; sourceTree = "<group>"; };
-		C6E8EBDE237255720049A18D /* HoScrollWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoScrollWebViewController.swift; sourceTree = "<group>"; };
 		C6E8EBE0237255DA0049A18D /* TopWebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopWebViewController.swift; sourceTree = "<group>"; };
+		C6E8EC0D237274170049A18D /* HoHeaderWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoHeaderWebViewController.swift; sourceTree = "<group>"; };
 		F27BFB4A9D590FAAB234BEFC /* Pods_swift_tools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_tools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -313,7 +313,7 @@
 		0CC5C8C02268179700B5FC5B /* HoWebTableViewController */ = {
 			isa = PBXGroup;
 			children = (
-				C6E8EBDE237255720049A18D /* HoScrollWebViewController.swift */,
+				C6E8EC0D237274170049A18D /* HoHeaderWebViewController.swift */,
 				0C84B0DB22670CD700200A1A /* HoWebTableViewController.swift */,
 			);
 			path = HoWebTableViewController;
@@ -517,12 +517,12 @@
 				0C19FF7421CA455000BB6BD7 /* HoNotificationCenter.swift in Sources */,
 				0C19FFDD21D1C69700BB6BD7 /* ViewAnimatorTableViewController.swift in Sources */,
 				0C19FF6521CA100C00BB6BD7 /* HoSplitViewController.swift in Sources */,
-				C6E8EBDF237255730049A18D /* HoScrollWebViewController.swift in Sources */,
 				0C19FFED21D21ACE00BB6BD7 /* MusicListViewModel.swift in Sources */,
 				0C19FFC121D0BBC600BB6BD7 /* HoUIViewExtensions.swift in Sources */,
 				0C19FFF521D21B8A00BB6BD7 /* MusicViewController.swift in Sources */,
 				0C19FF5A21C9E00700BB6BD7 /* HoUILabelExtensions.swift in Sources */,
 				0C19FF5E21C9E6BC00BB6BD7 /* HoCGRectExtensions.swift in Sources */,
+				C6E8EC0E237274170049A18D /* HoHeaderWebViewController.swift in Sources */,
 				0CC5C8CA22684D8D00B5FC5B /* HoAliFlowerHelper.m in Sources */,
 				0C84B0DA226709F700200A1A /* HoHtmlHelper.swift in Sources */,
 				0C19FF5021C9CC1A00BB6BD7 /* HoUIStoryboardExtensions.swift in Sources */,
@@ -699,7 +699,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FVSJ7Y58GD;
 				INFOPLIST_FILE = "$(SRCROOT)/swift-tools/common/SwiftToolsInfo.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -722,7 +722,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FVSJ7Y58GD;
 				INFOPLIST_FILE = "$(SRCROOT)/swift-tools/common/SwiftToolsInfo.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

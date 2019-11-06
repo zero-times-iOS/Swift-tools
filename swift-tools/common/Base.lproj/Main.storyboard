@@ -601,25 +601,30 @@
                                     <constraint firstAttribute="height" constant="64" id="voK-od-Pxy"/>
                                 </constraints>
                             </view>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mft-52-9aD">
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="noW-gu-POH">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
-                            </scrollView>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="vjo-dT-7h4" firstAttribute="trailing" secondItem="lVy-R5-1Vw" secondAttribute="trailing" id="Cx6-WK-gKI"/>
-                            <constraint firstItem="mft-52-9aD" firstAttribute="trailing" secondItem="lVy-R5-1Vw" secondAttribute="trailing" id="GIY-ev-8RJ"/>
-                            <constraint firstItem="mft-52-9aD" firstAttribute="leading" secondItem="lVy-R5-1Vw" secondAttribute="leading" id="HbE-iL-tex"/>
-                            <constraint firstItem="lVy-R5-1Vw" firstAttribute="top" secondItem="mft-52-9aD" secondAttribute="bottom" id="cZb-5Y-d45"/>
+                            <constraint firstItem="noW-gu-POH" firstAttribute="trailing" secondItem="lVy-R5-1Vw" secondAttribute="trailing" id="JnL-kv-Xq4"/>
                             <constraint firstItem="lVy-R5-1Vw" firstAttribute="bottom" secondItem="vjo-dT-7h4" secondAttribute="bottom" id="hQt-99-Hf2"/>
-                            <constraint firstItem="mft-52-9aD" firstAttribute="top" secondItem="vjo-dT-7h4" secondAttribute="top" id="ha0-n2-0Mn"/>
                             <constraint firstItem="lVy-R5-1Vw" firstAttribute="leading" secondItem="vjo-dT-7h4" secondAttribute="leading" id="lZG-yM-hhq"/>
+                            <constraint firstItem="lVy-R5-1Vw" firstAttribute="top" secondItem="noW-gu-POH" secondAttribute="bottom" id="nCz-Gl-Woe"/>
+                            <constraint firstItem="noW-gu-POH" firstAttribute="leading" secondItem="lVy-R5-1Vw" secondAttribute="leading" id="p0V-xF-OuQ"/>
+                            <constraint firstItem="noW-gu-POH" firstAttribute="top" secondItem="vjo-dT-7h4" secondAttribute="top" id="tl1-We-zPg"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vjo-dT-7h4"/>
                     </view>
                     <connections>
-                        <outlet property="bottomBar" destination="lVy-R5-1Vw" id="SwL-6x-q0p"/>
-                        <outlet property="containerScrollView" destination="mft-52-9aD" id="Xfi-Ps-Xcz"/>
+                        <outlet property="toolBar" destination="lVy-R5-1Vw" id="QxU-j5-vbm"/>
+                        <outlet property="webView" destination="noW-gu-POH" id="DMS-HI-atL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ibq-Nc-Rip" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

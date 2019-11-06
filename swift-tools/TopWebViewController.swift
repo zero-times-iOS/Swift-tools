@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TopWebViewController: HoScrollWebViewController {
+class TopWebViewController: HoHeaderWebViewController {
 
     override func viewDidLoad() {
         topViewHeight = 300
@@ -23,9 +23,10 @@ class TopWebViewController: HoScrollWebViewController {
         topView.addSubview(btn)
         
         let tapGes = UITapGestureRecognizer(target: self, action: #selector(rr))
-        tapGes.delegate = self
-
         topView.addGestureRecognizer(tapGes)
+        
+        topView.superview?.bringSubviewToFront(topView)
+        
     }
     
     @objc func rr() {
@@ -43,12 +44,4 @@ class TopWebViewController: HoScrollWebViewController {
     */
 
 }
-extension TopWebViewController: UIGestureRecognizerDelegate {
-    
-    func gestureRecognizer(_ gestureRecognizer: UIGestureRecognizer, shouldReceive touch: UITouch) -> Bool {
-        
-        print(touch.view)
-        
-        return true
-    }
-}
+
