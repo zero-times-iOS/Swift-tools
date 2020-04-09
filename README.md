@@ -97,11 +97,15 @@
 ## 引导页、轮播图
 >* [RazzleDazzle](https://github.com/IFTTT/RazzleDazzle) - 集成引导页，具有不错的动画效果
 >* [FSPagerView](https://github.com/WenchaoD/FSPagerView) - UICollectionView实现的轮播图
+>* [XHLaunchAd](https://github.com/CoderZhuXH/XHLaunchAd) - 🔥The screen opening advertising solutions - 开屏广告、启动广告解决方案-支持静态/动态图片广告,mp4视频广告,全屏/半屏广告、兼容iPhone/iPad.
+>* [RMParallax](https://github.com/michaelbabiy/RMParallax) - RMParallax是一个app启动页引导开源项目，除了细微的翻页视差效果，描述文本的过渡也非常美观（版本新特性、导航页、引导页).
 ## 新手教程
 >* [Instructions](https://github.com/ephread/Instructions) - 应用于操作指南、新手教程
 ## Tab Bar
 >* [adaptive-tab-ba](https://github.com/Ramotion/adaptive-tab-bar) - Ramotion出品，提供适合的Tab Bar
 >* [animated-tab-ba](https://github.com/Ramotion/animated-tab-bar) - 给tabbar items各单元添加动画效果
+>* [ESTabBarController](https://github.com/eggswift/ESTabBarController) - 定制tabbar
+>* [youtube-iOS](https://github.com/aslanyanhaik/youtube-iOS) - youtube顶部标签
 ## TableView
 >* [Eureka](https://github.com/xmartlabs/Eureka) - 通过详细的映射，创建动态的table-view forms
 >* [folding-cell](https://github.com/Ramotion/folding-cell) - 折叠的cell效果，动画很nice
